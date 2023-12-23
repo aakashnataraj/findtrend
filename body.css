@@ -204,7 +204,6 @@ h6{
 /**** Header-responsive ****/
 
 @media screen and (max-width:1305px) {
-
     nav{
         position: absolute;
      } 
@@ -218,12 +217,12 @@ h6{
     }
 
     nav ul {
-        width: 100%;
+        width: 50%;
         height: 60vh;
         background-color: #000;
         position: fixed;
         top: 75px;
-        left: -140%;
+        left: -100%;
         text-align: center;
         transition: 0.8s ease;
         z-index: 1;
@@ -240,17 +239,10 @@ h6{
         line-height: 15px;
     } 
 
-    nav ul li a{
-        margin-left: -50%;
-    }
-
     li .login{
-        margin-left: -60%;
+        margin-left: -20%;
     }
 
-    li .regs{
-        margin-left: -50%;
-    }
     
     #check:checked ~ ul {
         left: 0;
